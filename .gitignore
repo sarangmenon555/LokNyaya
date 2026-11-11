@@ -1,0 +1,10 @@
+node_modules
+dist
+.next
+.wrangler
+.env
+.env.*
+*.log
+out
+*.tsbuildinfo
+next-env.d.ts

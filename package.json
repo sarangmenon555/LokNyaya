@@ -1,0 +1,14 @@
+{
+  "name": "loknyaya",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @loknyaya/web dev",
+    "build": "pnpm --filter @loknyaya/web build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.2"
+  }
+}

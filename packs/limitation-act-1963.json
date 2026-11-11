@@ -1,0 +1,60 @@
+{
+  "id": "limitation-act-1963-schedule",
+  "title": "Limitation periods for common suits, appeals and applications",
+  "acts": ["Limitation Act, 1963"],
+  "layer": "central",
+  "verification": { "status": "pending", "lastVerified": null, "reviewer": null },
+  "rules": [
+    {
+      "id": "art-19-money-lent",
+      "draft": "demand-notice",
+      "label": "Recovering money lent",
+      "limitation": { "period": { "amount": 3, "unit": "years" }, "starts": "when the loan is made", "source": "Limitation Act, 1963, Schedule, Article 19" },
+      "documents": ["written proof of the loan or bank transfer", "messages or letters about repayment"]
+    },
+    {
+      "id": "art-55-breach-of-contract",
+      "draft": "demand-notice",
+      "label": "Compensation for breach of contract",
+      "limitation": { "period": { "amount": 3, "unit": "years" }, "starts": "when the contract is broken, or when a continuing breach ceases", "source": "Limitation Act, 1963, Schedule, Article 55" },
+      "documents": ["the agreement", "proof of payment", "proof of the breach"]
+    },
+    {
+      "id": "art-65-possession-on-title",
+      "label": "Recovering possession of immovable property based on title",
+      "limitation": { "period": { "amount": 12, "unit": "years" }, "starts": "when the other party's possession becomes adverse to the owner", "source": "Limitation Act, 1963, Schedule, Article 65", "acknowledgementExtends": false },
+      "documents": ["title deed", "revenue records", "tax receipts"]
+    },
+    {
+      "id": "art-113-residuary",
+      "label": "Any suit with no specific period",
+      "limitation": { "period": { "amount": 3, "unit": "years" }, "starts": "when the right to sue accrues", "source": "Limitation Act, 1963, Schedule, Article 113" },
+      "golden": [
+        { "name": "plenty of time", "input": { "start": "2023-06-10", "today": "2026-01-15" }, "expect": { "deadline": "2026-06-10", "status": "safe" } }
+      ]
+    },
+    {
+      "id": "art-116-appeal-lower-court",
+      "label": "Appeal from a decree or order to a court other than the High Court",
+      "limitation": { "period": { "amount": 30, "unit": "days" }, "starts": "the date of the decree or order", "source": "Limitation Act, 1963, Schedule, Article 116", "condonable": true, "acknowledgementExtends": false },
+      "golden": [
+        { "name": "days left", "input": { "start": "2026-10-01", "today": "2026-10-20" }, "expect": { "deadline": "2026-10-31", "status": "urgent" } }
+      ]
+    },
+    {
+      "id": "art-122-restore-dismissal",
+      "label": "Restoring a suit or appeal dismissed for default",
+      "limitation": { "period": { "amount": 30, "unit": "days" }, "starts": "the date of dismissal", "source": "Limitation Act, 1963, Schedule, Article 122", "condonable": true, "acknowledgementExtends": false }
+    },
+    {
+      "id": "art-136-execution",
+      "label": "Executing a decree or order",
+      "limitation": { "period": { "amount": 12, "unit": "years" }, "starts": "when the decree or order becomes enforceable, or on default of a payment due on a fixed date", "source": "Limitation Act, 1963, Schedule, Article 136", "acknowledgementExtends": false }
+    },
+    {
+      "id": "art-137-applications",
+      "label": "Any application with no specific period",
+      "limitation": { "period": { "amount": 3, "unit": "years" }, "starts": "when the right to apply accrues", "source": "Limitation Act, 1963, Schedule, Article 137", "condonable": true, "acknowledgementExtends": false }
+    }
+  ]
+}

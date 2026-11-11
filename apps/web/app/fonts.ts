@@ -1,0 +1,17 @@
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/source-serif-4/600.css";
+import "@fontsource/noto-sans-devanagari/400.css";
+import "@fontsource/noto-sans-devanagari/600.css";
+import "@fontsource/noto-sans-malayalam/400.css";
+import "@fontsource/noto-sans-malayalam/600.css";
+import "@fontsource/noto-sans-tamil/400.css";
+import "@fontsource/noto-sans-tamil/600.css";
+import "@fontsource/noto-sans-bengali/400.css";
+import "@fontsource/noto-sans-bengali/600.css";
+import "@fontsource/noto-sans-telugu/400.css";
+import "@fontsource/noto-sans-telugu/600.css";
+import "@fontsource/noto-sans-kannada/400.css";
+import "@fontsource/noto-sans-kannada/600.css";
+import "@fontsource/noto-sans-gujarati/400.css";
+import "@fontsource/noto-sans-gujarati/600.css";

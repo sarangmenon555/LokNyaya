@@ -1,0 +1,76 @@
+{
+  "id": "tn-tenancy-2017",
+  "title": "Tamil Nadu: rent and security deposits",
+  "acts": ["Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017", "Limitation Act, 1963"],
+  "stateActs": ["Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017"],
+  "layer": "state",
+  "jurisdictions": ["TN"],
+  "verification": { "status": "pending", "lastVerified": null, "reviewer": null },
+  "rules": [
+    {
+      "id": "deposit-refund",
+      "label": "Getting back a security deposit or advance rent",
+      "draft": "demand-notice",
+      "limitation": {
+        "period": { "amount": 3, "unit": "years" },
+        "starts": "the date the landlord takes back the vacant premises and fails to refund",
+        "source": "Limitation Act, 1963, Schedule, Article 113 (general period for civil claims). The Tamil Nadu Act sets no separate period for deposit claims in the sections checked. Confirm."
+      },
+      "forums": [
+        {
+          "id": "tn-rent-court",
+          "name": "Rent Court for the urban area",
+          "notes": "Only the Rent Court, and not a civil court, hears landlord and tenant disputes under the Act (sections 34 and 40). The Rent Authority's powers cover rent revision, deposit of rent, repairs and essential services, not deposit refunds. Appeals go to the Rent Tribunal."
+        },
+        {
+          "id": "lok-adalat",
+          "name": "Lok Adalat or mediation through the State Legal Services Authority",
+          "notes": "Free and quick if the other side agrees."
+        }
+      ],
+      "documents": [
+        "rent agreement, and proof it was registered with the Rent Authority",
+        "proof of the deposit payment",
+        "rent receipts",
+        "proof of the date the landlord took back possession",
+        "messages or letters asking for the refund"
+      ],
+      "notes": "Unless the agreement says otherwise, a deposit above three times the monthly rent is unlawful (section 11(1)). The deposit is due when the landlord takes back the vacant premises (section 11(2), as amended in 2018). An unregistered agreement may not be accepted as evidence (section 4A). The Act covers urban areas and some premises are excluded (section 3).",
+      "golden": [
+        { "name": "plenty of time", "input": { "start": "2025-04-01", "today": "2026-10-16" }, "expect": { "deadline": "2028-04-01", "status": "safe" } }
+      ]
+    },
+    {
+      "id": "appeal-to-rent-court",
+      "label": "Appeal against an order of the Rent Authority",
+      "limitation": {
+        "period": { "amount": 30, "unit": "days" },
+        "starts": "the date of the Rent Authority's order",
+        "source": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017, section 33(2), as substituted in 2018",
+        "acknowledgementExtends": false
+      },
+      "forums": [{ "id": "tn-rent-court-appeal", "name": "Rent Court having territorial jurisdiction" }],
+      "documents": ["copy of the Rent Authority's order", "the original application and reply"],
+      "notes": "The Act does not say whether a late appeal can be accepted. Ask a lawyer.",
+      "golden": [
+        { "name": "days left", "input": { "start": "2026-10-01", "today": "2026-10-20" }, "expect": { "deadline": "2026-10-31", "status": "urgent" } }
+      ]
+    },
+    {
+      "id": "appeal-to-rent-tribunal",
+      "label": "Appeal against a final order of the Rent Court",
+      "limitation": {
+        "period": { "amount": 30, "unit": "days" },
+        "starts": "the date of the Rent Court's final order",
+        "source": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017, section 38(1), as substituted in 2018",
+        "acknowledgementExtends": false
+      },
+      "forums": [{ "id": "tn-rent-tribunal", "name": "Rent Tribunal for the area where the premises are" }],
+      "documents": ["copy of the final order of the Rent Court", "the application, reply and evidence filed in the Rent Court"],
+      "notes": "The Act makes the Tribunal's decision final (section 38(5)). Ask a lawyer whether any other remedy remains.",
+      "golden": [
+        { "name": "days left", "input": { "start": "2026-09-10", "today": "2026-09-20" }, "expect": { "deadline": "2026-10-10", "status": "approaching" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checkedBy": "project owner",
+  "checkedOn": "2026-10-17",
+  "entries": [
+    { "id": "bns-318", "topic": "Cheating", "newCode": "BNS", "newSections": ["318", "318(4)"], "oldCode": "IPC", "oldSections": ["415", "420"], "note": "Cheating that induces delivery of property is 318(4).", "finder": true },
+    { "id": "bns-316", "topic": "Criminal breach of trust", "newCode": "BNS", "newSections": ["316"], "oldCode": "IPC", "oldSections": ["405", "406"], "note": "", "finder": true },
+    { "id": "bns-329", "topic": "Criminal trespass", "newCode": "BNS", "newSections": ["329"], "oldCode": "IPC", "oldSections": ["441", "447"], "note": "", "finder": true },
+    { "id": "bns-336", "topic": "Forgery", "newCode": "BNS", "newSections": ["336"], "oldCode": "IPC", "oldSections": ["463"], "note": "The old section 463 and those that follow it.", "finder": true },
+    { "id": "bns-356", "topic": "Defamation", "newCode": "BNS", "newSections": ["356"], "oldCode": "IPC", "oldSections": ["499", "500"], "note": "", "finder": true },
+    { "id": "bns-324", "topic": "Mischief", "newCode": "BNS", "newSections": ["324"], "oldCode": "IPC", "oldSections": ["425"], "note": "", "finder": true },
+    { "id": "bnss-144", "topic": "Maintenance of wife, children and parents", "newCode": "BNSS", "newSections": ["144"], "oldCode": "CrPC", "oldSections": ["125"], "note": "Civil in nature, heard under criminal procedure.", "finder": true },
+    { "id": "bnss-164-166", "topic": "Magistrate's orders on possession disputes over land or water", "newCode": "BNSS", "newSections": ["164", "165", "166"], "oldCode": "CrPC", "oldSections": ["145", "146", "147"], "note": "These orders are temporary and do not decide title.", "finder": true },
+    { "id": "bnss-152", "topic": "Conditional order to remove a public nuisance", "newCode": "BNSS", "newSections": ["152"], "oldCode": "CrPC", "oldSections": ["133"], "note": "", "finder": true },
+    { "id": "bnss-163", "topic": "Urgent orders to prevent nuisance or danger", "newCode": "BNSS", "newSections": ["163"], "oldCode": "CrPC", "oldSections": ["144"], "note": "", "finder": true },
+    { "id": "bnss-359", "topic": "Compounding of offences", "newCode": "BNSS", "newSections": ["359"], "oldCode": "CrPC", "oldSections": ["320"], "note": "Lets certain offences be settled.", "finder": true },
+    { "id": "bnss-530", "topic": "Trial and proceedings in electronic mode", "newCode": "BNSS", "newSections": ["530"], "oldCode": null, "oldSections": [], "note": "No direct old equivalent. Applies to criminal procedure, not civil suits.", "finder": true },
+    { "id": "bnss-479", "topic": "Release of undertrials after a fraction of the maximum sentence", "newCode": "BNSS", "newSections": ["479"], "oldCode": "CrPC", "oldSections": ["436A"], "note": "Kept for reference. Outside the civil scope of LokNyaya.", "finder": false },
+    { "id": "bsa-63", "topic": "Certificate for admitting electronic records", "newCode": "BSA", "newSections": ["63"], "oldCode": "Evidence Act", "oldSections": ["65B"], "note": "", "finder": true },
+    { "id": "bsa-61", "topic": "Electronic records not refused as evidence merely for being electronic", "newCode": "BSA", "newSections": ["61"], "oldCode": "Evidence Act", "oldSections": ["65A"], "note": "", "finder": true }
+  ]
+}

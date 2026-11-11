@@ -1,0 +1,20 @@
+{
+  "KL": {
+    "highCourt": "High Court of Kerala",
+    "legalServices": "Kerala State Legal Services Authority",
+    "consumerCommission": "Kerala State Consumer Disputes Redressal Commission",
+    "rera": "Kerala Real Estate Regulatory Authority"
+  },
+  "TN": {
+    "highCourt": "Madras High Court",
+    "legalServices": "Tamil Nadu State Legal Services Authority",
+    "consumerCommission": "Tamil Nadu State Consumer Disputes Redressal Commission",
+    "rera": "Tamil Nadu Real Estate Regulatory Authority"
+  },
+  "WB": {
+    "highCourt": "Calcutta High Court",
+    "legalServices": "West Bengal State Legal Services Authority",
+    "consumerCommission": "West Bengal State Consumer Disputes Redressal Commission",
+    "rera": "West Bengal Real Estate Regulatory Authority"
+  }
+}

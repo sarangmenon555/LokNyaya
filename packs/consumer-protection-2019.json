@@ -1,0 +1,28 @@
+{
+  "id": "consumer-protection-act-2019",
+  "title": "Defective goods or deficient service",
+  "acts": ["Consumer Protection Act, 2019", "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021"],
+  "layer": "central",
+  "verification": { "status": "pending", "lastVerified": null, "reviewer": null },
+  "rules": [
+    {
+      "id": "goods-or-service",
+      "draft": "demand-notice",
+      "label": "Complaint about defective goods, deficient service or unfair trade practice",
+      "limitation": { "period": { "amount": 2, "unit": "years" }, "starts": "the date the cause of action arose", "source": "Consumer Protection Act, 2019, Section 69", "condonable": true },
+      "forums": [
+        { "id": "district-commission", "name": "District Consumer Disputes Redressal Commission", "minExclusive": 0, "maxInclusive": 5000000, "notes": "Value is the consideration paid" },
+        { "id": "state-commission", "name": "State Consumer Disputes Redressal Commission", "minExclusive": 5000000, "maxInclusive": 20000000, "notes": "Value is the consideration paid" },
+        { "id": "national-commission", "name": "National Consumer Disputes Redressal Commission", "minExclusive": 20000000, "maxInclusive": null, "notes": "Value is the consideration paid" }
+      ],
+      "documents": ["invoice or receipt", "proof of payment", "messages or emails with the seller or provider", "warranty or terms of service", "photographs or reports showing the defect"],
+      "notes": "Send a written complaint to the seller or provider first and keep proof of delivery.",
+      "golden": [
+        { "name": "safe", "input": { "start": "2024-03-12", "today": "2025-12-01" }, "expect": { "deadline": "2026-03-12", "status": "safe" } },
+        { "name": "approaching", "input": { "start": "2024-03-12", "today": "2026-02-20" }, "expect": { "deadline": "2026-03-12", "status": "approaching" } },
+        { "name": "urgent", "input": { "start": "2024-03-12", "today": "2026-03-05" }, "expect": { "deadline": "2026-03-12", "status": "urgent" } },
+        { "name": "expired", "input": { "start": "2024-03-12", "today": "2026-03-13" }, "expect": { "deadline": "2026-03-12", "status": "expired" } }
+      ]
+    }
+  ]
+}

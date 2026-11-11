@@ -1,0 +1,29 @@
+{
+  "id": "rti-act-2005-appeals",
+  "title": "Appeals under the Right to Information Act",
+  "acts": ["Right to Information Act, 2005"],
+  "layer": "central",
+  "verification": { "status": "pending", "lastVerified": null, "reviewer": null },
+  "rules": [
+    {
+      "id": "first-appeal",
+      "label": "First appeal after a refusal or no reply",
+      "limitation": { "period": { "amount": 30, "unit": "days" }, "starts": "the date the reply period expired or the decision was received", "source": "Right to Information Act, 2005, Section 19(1)", "condonable": true, "acknowledgementExtends": false },
+      "forums": [{ "id": "first-appellate-authority", "name": "First Appellate Authority of the public authority" }],
+      "documents": ["copy of the application", "proof of submission", "the reply or proof of no reply"],
+      "golden": [
+        { "name": "days left", "input": { "start": "2026-09-01", "today": "2026-09-20" }, "expect": { "deadline": "2026-10-01", "status": "urgent" } }
+      ]
+    },
+    {
+      "id": "second-appeal",
+      "label": "Second appeal to the Information Commission",
+      "limitation": { "period": { "amount": 90, "unit": "days" }, "starts": "the date the first appeal decision was due or was received", "source": "Right to Information Act, 2005, Section 19(3)", "condonable": true, "acknowledgementExtends": false },
+      "forums": [{ "id": "information-commission", "name": "Central or State Information Commission" }],
+      "documents": ["first appeal and its decision", "original application and reply"],
+      "golden": [
+        { "name": "just expired", "input": { "start": "2026-07-01", "today": "2026-09-30" }, "expect": { "deadline": "2026-09-29", "status": "expired" } }
+      ]
+    }
+  ]
+}

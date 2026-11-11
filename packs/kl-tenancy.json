@@ -1,0 +1,55 @@
+{
+  "id": "kl-tenancy",
+  "title": "Keralam: rent and security deposits",
+  "acts": ["Code of Civil Procedure, 1908", "Kerala Civil Courts Act, 1957", "Limitation Act, 1963"],
+  "stateActs": ["Kerala Civil Courts Act, 1957"],
+  "layer": "state",
+  "jurisdictions": ["KL"],
+  "verification": { "status": "pending", "lastVerified": null, "reviewer": null },
+  "rules": [
+    {
+      "id": "deposit-refund",
+      "label": "Getting back a security deposit or advance rent",
+      "draft": "demand-notice",
+      "limitation": {
+        "period": { "amount": 3, "unit": "years" },
+        "starts": "the date the tenant vacates and the landlord refuses or fails to refund",
+        "source": "Limitation Act, 1963, Schedule, Article 113 (general period for civil claims). Confirm the period that applies to deposit claims."
+      },
+      "forums": [
+        {
+          "id": "kl-munsiff-court",
+          "name": "Munsiff's Court with jurisdiction over the property (civil suit)",
+          "minExclusive": 0,
+          "maxInclusive": 1000000,
+          "notes": "A Munsiff's Court hears civil suits up to 10 lakh rupees (Kerala Civil Courts Act, 1957, as amended)."
+        },
+        {
+          "id": "kl-sub-court",
+          "name": "Subordinate Judge's Court, also called the Sub Court (civil suit)",
+          "minExclusive": 1000000,
+          "maxInclusive": null,
+          "notes": "Claims above 10 lakh rupees go to the Sub Court."
+        },
+        {
+          "id": "lok-adalat",
+          "name": "Lok Adalat or mediation through the State Legal Services Authority",
+          "minExclusive": 0,
+          "maxInclusive": null,
+          "notes": "Free and quick if the other side agrees."
+        }
+      ],
+      "documents": [
+        "rent or lease agreement",
+        "proof of the deposit payment",
+        "rent receipts",
+        "proof of the date you vacated",
+        "messages or letters asking for the refund"
+      ],
+      "notes": "A separate claim to recover a deposit is a civil suit. The Rent Control Court under the 1965 Act deals with eviction and rent control petitions, not deposit recovery. This point came from a reviewer's note and still needs confirming.",
+      "golden": [
+        { "name": "plenty of time", "input": { "start": "2025-04-01", "today": "2026-10-16" }, "expect": { "deadline": "2028-04-01", "status": "safe" } }
+      ]
+    }
+  ]
+}
