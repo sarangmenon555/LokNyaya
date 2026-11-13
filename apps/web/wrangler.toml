@@ -5,4 +5,4 @@ pages_build_output_dir = "out"
 [[d1_databases]]
 binding = "DB"
 database_name = "loknyaya"
-database_id = "REPLACE_WITH_DATABASE_ID"
+database_id = "0e3e61cf-e74f-4966-aeb6-bc9db32fbf07"
